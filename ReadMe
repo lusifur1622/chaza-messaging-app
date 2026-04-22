@@ -1,0 +1,23 @@
+# Chaza – Real-Time Messaging Android App
+
+## Overview
+Chaza is a real-time messaging Android application built using Firebase Authentication and Firestore, enabling users to send and receive messages instantly.
+
+## Features
+- User authentication (signup/login)
+- Real-time messaging using Firestore
+- Multi-user chat support
+- Persistent message storage
+
+## Tech Stack
+- Kotlin
+- Firebase Authentication
+- Firebase Firestore Database
+
+## Challenges Faced
+- Handling real-time message synchronization
+- Preventing duplicate messages due to multiple listeners
+- Managing UI updates efficiently
+
+## Key Logic
+Implemented real-time listeners with controlled updates to ensure consistent message delivery without duplication.
