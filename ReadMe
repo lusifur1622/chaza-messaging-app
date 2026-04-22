@@ -8,6 +8,7 @@ Chaza is a real-time messaging Android application built using Firebase Authenti
 - Real-time messaging using Firestore
 - Multi-user chat support
 - Persistent message storage
+- Clean Ui Using JetpackCompose
 
 ## Tech Stack
 - Kotlin
@@ -17,7 +18,7 @@ Chaza is a real-time messaging Android application built using Firebase Authenti
 ## Challenges Faced
 - Handling real-time message synchronization
 - Preventing duplicate messages due to multiple listeners
-- Managing UI updates efficiently
+- Managing UI updates efficiently Via Jetpackcompose
 
 ## Key Logic
 Implemented real-time listeners with controlled updates to ensure consistent message delivery without duplication.
